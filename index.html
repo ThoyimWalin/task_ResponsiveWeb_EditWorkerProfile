@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile Pekerja</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/styles/editProfil.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="main-header">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="assets/icons/coloricon.svg" alt="">
+                    </a>
+                </div>
+                <div class="rigth-head">
+                    <a href="">
+                        <img src="assets/icons/notif.svg" alt="notif">
+                    </a>
+                    <a href="">
+                        <img src="assets/icons/mail.svg" alt="mail">
+                    </a>
+                    <a href="">
+                        <div class="profile">
+                            <img src="assets/images/profil.png" alt="mail">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="bg-purple"></div>
+        <div class="container">
+            <div class="main-edit">
+                <div class="left-edit">
+                    <div class="box-left">
+                        <div class="edit-photo">
+                            <div class="img-profile"></div>
+                            <a href="#">Edit</a>
+                        </div>
+                        <div class="detail-profile">
+                            <h2>Louis Tomlinson</h2>
+                            <h3>Web Developer</h3>
+                            <p>Purwokerto, Jawa Tengah</p>
+                            <p>Freelancer</p>
+                        </div>
+                    </div>
+                    <div class="save-edit">
+                        <a href="#" class="save">Simpan</a>
+                        <a href="#" class="abort">Batal</a>
+                    </div>
+                </div>
+
+                <div class="rigth-edit">
+                    <div class="box-rigth">
+
+                        <div class="biodata">
+                            <h3>Data Diri</h3>
+                            <form>
+                                <div class="input-form">
+                                    <label for="full-name">Nama Lengkap</label>
+                                    <input type="text" id="full-name" placeholder="Masukkan nama lengkap">
+                                </div>
+                                <div class="input-form">
+                                    <label for="job-desk">Job Desk</label>
+                                    <input type="text" id="job-desk" placeholder="Masukkan job desk">
+                                </div>
+                                <div class="input-form">
+                                    <label for="domisili">Domisili</label>
+                                    <input type="text" id="domisili" placeholder="Masukkan domisili">
+                                </div>
+                                <div class="input-form">
+                                    <label for="work-loc">Tempat Kerja</label>
+                                    <input type="text" id="work-loc" placeholder="Masukkan tempat kerja">
+                                </div>
+                                <div class="input-form">
+                                    <label for="description">Deskripsi Singkat</label>
+                                    <textarea type="text" id="description"
+                                        placeholder="Tuliskan deskripsi singkat"></textarea>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="skill">
+                            <h3>Skill</h3>
+                            <form>
+                                <div class="edit-skill">
+                                    <div class="input-form">
+                                        <input type="text" id="skill" placeholder="Java">
+                                        <a href="#">Simpan</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="job-exp">
+                            <h3>Pengalaman Kerja</h3>
+                            <form>
+                                <div class="input-form">
+                                    <label for="position">Posisi</label>
+                                    <input type="text" id="position" placeholder="Web developer">
+                                </div>
+                                <div class="job-year">
+                                    <div class="input-form">
+                                        <label for="comp-name">Nama Perusahaan</label>
+                                        <input type="text" id="comp-name" placeholder="PT harus bisa">
+                                    </div>
+                                    <div class="input-form">
+                                        <label for="month-year">Bulan/tahun</label>
+                                        <input type="text" id="month-year" placeholder="Januari 2018">
+                                    </div>
+                                </div>
+                                <div class="input-form">
+                                    <label for="job-description">Deskripsi Singkat</label>
+                                    <textarea type="text" id="job-description"
+                                        placeholder="Deskripsikan pekerjaan anda"></textarea>
+                                </div>
+                                <hr>
+                                <input type="button" value="Tambah pengalaman kerja" class="btn-add-job">
+                            </form>
+                        </div>
+
+                        <div class="portfolio">
+                            <h3>Portofolio</h3>
+                            <form>
+                                <div class="input-form">
+                                    <label for="apk-name">Nama Aplikasi</label>
+                                    <input type="text" id="apk-name" placeholder="Masukkan nama aplikasi">
+                                </div>
+                                <div class="input-form">
+                                    <label for="repo-link">Link Repository</label>
+                                    <input type="text" id="repo-link" placeholder="Masukkan link repository">
+                                </div>
+                                <div class="input-form">
+                                    <label>Type Portofolio</label>
+                                    <div class="type-port">
+                                        <div class="radio-por">
+                                            <input type="radio" id="por-1" name="contact" value="mobile-apk" checked />
+                                            <label for="por-1">Aplikasi Mobile</label>
+                                        </div>
+                                        <div class="radio-por">
+                                            <input type="radio" id="por-2" name="contact" value="web-apk" />
+                                            <label for="por-2">Aplikasi Web</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-form">
+                                    <label>Upload Gambar</label>
+                                    <div class="up-images">
+                                        <a href="">
+                                            <img src="assets/images/upImage.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <hr>
+                                <input type="button" value="Tambah Portofolio" class="btn-add-por">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="main-footer">
+                <img src="assets/icons/mainicon.svg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
+                <hr>
+                <div class="copyrigth">
+                    <p>2020 Pewworld. All right reserved</p>
+                    <div class="cop-left">
+                        <p>Telepon</p>
+                        <p>Email</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
